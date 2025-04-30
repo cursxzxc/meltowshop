@@ -1,0 +1,18 @@
+•   Python 3+
+•   Библиотеки: telethon, phonenumbers (pip install telethon phonenumbers)
+•   API ID и API Hash (получить тут: https://my.telegram.org/auth)
+
+Инструкция:
+
+1.  Скачайте и установите библиотеки.  
+pip install telethon
+pip install phonenumbers
+2.  Создайте файл api_config.txt в папке Api (рядом со скриптом). В нём 2 строки:
+    •   1 строка: Ваш API ID
+    •   2 строка: Ваш API Hash
+3.  Запустите скрипт : main.py
+4.  Введите номер телефона (в международном формате!).
+5.  Введите код подтверждения, полученный в Telegram.
+6.  Файл сессии будет создан в папке session.
+
+Готово! Теперь можно использовать файл сессии в своих скриптах Telethon.
